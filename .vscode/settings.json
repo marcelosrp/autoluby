@@ -1,0 +1,12 @@
+{
+  "emmet.syntaxProfiles": {
+    "javascript": "js"
+  },
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
