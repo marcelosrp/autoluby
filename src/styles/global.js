@@ -13,8 +13,8 @@ const GlobalStyles = createGlobalStyle`
     --normal: 400;
     --medium: 500;
     --bold: 700;
-    
-    --font-family: 'Poppins', sans-serif;
+
+    --font-family: "Roboto","Helvetica","Arial",sans-serif
   }
 
   * {
@@ -24,7 +24,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   html {
-    font-size: 62.5%;
+    //font-size: 62.5%;
   }
 
   html, body, #root {
@@ -32,8 +32,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: var(--font-family);
-    font-size: 16px;
+    //font-size: 16px;
+    font-family: var(--font-family)
   }
 `
 
