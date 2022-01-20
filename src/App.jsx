@@ -6,14 +6,19 @@ import Veiculos from './pages/veiculos'
 import Funcionarios from './pages/funcionarios'
 import MeusVeiculos from './pages/meus-veiculos'
 
+import GlobalStyles from './styles/global'
+
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Login />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/meus-veiculos" element={<MeusVeiculos />} />
-      <Route path="/veiculos" element={<Veiculos />} />
-      <Route path="/funcionarios" element={<Funcionarios />} />
-    </Routes>
+    <>
+      <GlobalStyles />
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/meus-veiculos" element={<MeusVeiculos />} />
+        <Route path="/veiculos" element={<Veiculos />} />
+        <Route path="/funcionarios" element={<Funcionarios />} />
+      </Routes>
+    </>
   )
 }
